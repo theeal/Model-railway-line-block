@@ -1,0 +1,25 @@
+/OUT to Line
+Lin = LjrL1 * Ri * Sp * Sf * SL1x
+Vin = Rm * /Lm + Lin * Lm
+
+
+//In from Line
+Lout = /Ri * Sp * Sf * SL1x
+Vout = Ri + (/Ri * Lm * /Li)
+
+//Others
+//Line direction
+Ri(S) = Vout * /Lm
+Ri(R) = Vout * Lm
+
+//Saftey feature
+Sp = (Ljr21 * L21 + Svx * Sp) * (LL1 * Ljr51 + (RSL 1c-b + LjrL1 * Sp)
+
+//Line Stop
+Sf(S) = LineFree
+Sf(R) = LineStop
+
+IndIn  = Ri
+IndOut = /Ri
+IndLineFree = Lin + Vin
+IndLineStop = /Sf
