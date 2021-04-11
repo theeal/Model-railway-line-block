@@ -1,0 +1,21 @@
+This file is to more Easy Explain all the shortname and functions
+
+How to read names
+[Shortname][Signal number]
+
+Numbering Signals
+L = Line signal on singel track
+U = Upp line Signal on dubbel track
+D = Down line Signal on dubbel track
+
+Station Relays
+Ri = Direction relay (S/R two different coils and "memory" of position)
+Sf = 
+Li = 
+Lm = 
+Sp = 
+V  = Turn relay
+L+ = Line free
+L- = Line free
+
+Line Relays
